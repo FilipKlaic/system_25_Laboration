@@ -8,17 +8,17 @@ on:
 jobs:
     build-and-test:
         runs-on: ubuntu-latest
-    steps:
+        steps:
         - name: Bygg
         uses: actions/checkout@v7.0.x
-    steps:
-        - name: Testa
-        uses: actions/setup-dotnet@v7.0.x
+        steps:
+            - name: Testa
+            uses: actions/setup-dotnet@v7.0.x
         with:
             dotnet-version: 10.0.x
-    steps:
-        run: dotnet restore
-    steps:
-        run: dotnet build --no-restore --configuration Release
-    steps:
-        run: dotnet test --no-build --configuration Release
+        steps:
+            run: dotnet restore
+        steps:
+            run: dotnet build --no-restore --configuration Release
+        steps:
+            run: dotnet test --no-build --configuration Release
