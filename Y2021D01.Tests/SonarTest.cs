@@ -24,6 +24,7 @@ public class SonarTest
     [InlineData(new int[] {}, 0)]
     public void CountIncreases_KnownArrays_ReturnsExpected(int[] depths, int expected)
     {
+        
         // Arrange
         var sut = new Sonar();
 
