@@ -18,7 +18,7 @@ public class Floor
             }
             else if (floor[i] == ')')
             {
-                currentFloor+= 5;
+                currentFloor--;
             }
         }
 
