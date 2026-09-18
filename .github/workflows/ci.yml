@@ -30,6 +30,6 @@ jobs:
       - name: formatera
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 10
+          dotnet-version: v10.x.0
           
       - run: dotnet format --verify-no-changes
