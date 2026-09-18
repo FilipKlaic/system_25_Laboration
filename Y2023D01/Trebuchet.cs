@@ -8,11 +8,11 @@ public class Trebuchet
         string numberFromText = string.Empty;
         //firstDigit
         //lastDigit
-        
+
         for (int i = 0; i < number.Length; i++)
         {
-            if(Char.IsDigit(number[i])) numberFromText += number[i];
-            
+            if (Char.IsDigit(number[i])) numberFromText += number[i];
+
             sum = int.Parse(numberFromText);
         }
 
