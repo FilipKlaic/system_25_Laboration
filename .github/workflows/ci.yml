@@ -10,10 +10,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Bygg
-          uses: actions/checkout@v7
+          uses: actions/checkout@v4
         
         - name: Testa
-          uses: actions/setup-dotnet@v7
+          uses: actions/setup-dotnet@v4
           with:
             dotnet-version: 10
             
