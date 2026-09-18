@@ -8,8 +8,8 @@ public class Floor
     public int Check(string floor)
     {
         int currentFloor = 0;
-        
-        
+
+
         for (int i = 0; i < floor.Length; i++)
         {
             if (floor[i] == '(')
@@ -18,10 +18,10 @@ public class Floor
             }
             else if (floor[i] == ')')
             {
-                currentFloor--;
+                currentFloor+= 5;
             }
         }
-        
+
         return currentFloor;
     }
 
@@ -33,11 +33,8 @@ public class Floor
         for (int i = 0; i < changedFloor.Length; i++)
         {
             currentFloor++;
-
         }
 
         return currentFloor;
     }
-    
-    
 }
