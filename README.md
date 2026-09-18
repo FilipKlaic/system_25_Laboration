@@ -2,6 +2,9 @@
 
 Laborationsinstruktionerna finns i [LABORATION.md](LABORATION.md).
 
+Uppföljningen om GitHub-flöde och CI finns i
+[WORKFLOW_LABORATION.md](WORKFLOW_LABORATION.md).
+
 Repot innehåller:
 
 - `Common` – hjälpklassen `Input` för att läsa indata, med tester i `Common.Tests`.
