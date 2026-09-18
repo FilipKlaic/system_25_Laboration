@@ -15,8 +15,8 @@ public class FloorTests
 
     }
 
-    
-    
+
+
 
     [Theory]
     [InlineData("(())", 0)]
@@ -32,16 +32,16 @@ public class FloorTests
     {
         //Arrange
         var sut = new Floor();
-        
-        
+
+
         //Act
         var actual = sut.Check(floor);
-        
-        
+
+
         //Assert
         Assert.Equal(expected, actual);
     }
-    
+
     // Del 2
 
     [Theory]
@@ -56,5 +56,5 @@ public class FloorTests
         //Assert
         Assert.Equal(expected, actual);
     }
-    
+
 }
